@@ -1,0 +1,16 @@
+name: dft-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9.5
+  - numpy=1.20.2
+  - matplotlib=3.4.2
+  - pandas=1.2.4
+  - scipy=1.6.2
+  - fastcache=1.1.0
+  - mpmath=1.2.1
+  - h5py
+  - pip
+  - pip:
+      - ruamel.yaml==0.17.9
